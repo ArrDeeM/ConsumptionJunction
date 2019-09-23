@@ -13,8 +13,18 @@
             <input type="text" placeholder="Search">
     </div>
 
-    <a href = {% url 'accountSignUp' %}>
-        <h2>sign up</h2>
+    <div class = "account">
+        <form action="signIn">
+            <input type="text" placeholder="Email" required>
+            <br>
+            <input type="text" placeholder="Password" minlength="8" required>
+            <br>
+            <button type="submit">sign in</button>
+        </form>
+    </div>
+
+    <a href={% url 'accountSignUp' %}>
+        <h5>Create an account</h5>
     </a>
 
 </main>
