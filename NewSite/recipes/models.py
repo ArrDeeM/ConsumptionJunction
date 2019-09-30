@@ -8,4 +8,4 @@ class Account(models.Model):
     email = models.CharField(max_length=20, help_text='Enter email')   
     userName = models.CharField(max_length=20, help_text='Enter username')
     passWord = models.CharField(max_length=20, help_text='Enter password')
-    retypePassWord = models.CharField(max_length=20, help_text='Retype Password')
+    retypePassWord = models.CharField(max_length=20, help_text='Retype Password') 
