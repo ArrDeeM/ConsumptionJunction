@@ -7,7 +7,7 @@
     <title>Consumption Junction</title>
 
     <div class ="topBar">
-            <a href = index.html>
+            <a href= {% url 'index' %}>
                 <h1 class = "logo">Consumption Junction</h1>
             </a>
             <input type="text" placeholder="Search">
@@ -23,7 +23,7 @@
         </form>
     </div>
 
-    <a href="accountSignUp.html">
+    <a href={% url 'signUp' %}>
         <h5>Create an account</h5>
     </a>
 
