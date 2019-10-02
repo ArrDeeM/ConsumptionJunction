@@ -7,8 +7,7 @@ def index(request):
     return render(request, 'index.html')
 
 def signUp(request):
-	return render(request, 'accountSignUp.html')
-	
+    return render(request, 'accountSignUp.html')
+
 def signIn(request):
-	return render(request, 'accountSignIn.html')
-	
+    return render(request, 'accountSignIn.html')
