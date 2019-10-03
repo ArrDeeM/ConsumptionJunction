@@ -6,6 +6,21 @@
 
     <title>Consumption Junction</title>
 
+<style>
+.wrapper {
+  display: flex;
+}
+.wrapper > div {
+  font-size: 4vh;
+  color: white;
+  background: #5EB6D7;
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+</style>
+
 <body>
     <div class ="topBar" style = "background-color: #FF5533">
         <a href = {% url 'index' %}>
@@ -17,6 +32,14 @@
 	<div class = "about" style = "text-align: center">
 		<h2>About Us</h2>
 		<p>This is where we talk about us</p>
+	</div>
+	<div class="wrapper" style = "text-align: center">
+		<div>
+			<p>Name</p>
+		</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
 	</div>
 
  </body>
