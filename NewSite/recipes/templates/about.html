@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<main>
+    <!--Links files to external css files-->
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css" href="assets/css/theme.css">
+
+    <title>Consumption Junction</title>
+
+<style>
+.wrapper {
+  display: flex;
+}
+.wrapper > div {
+  font-size: 4vh;
+  color: white;
+  background: #5EB6D7;
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+</style>
+
+<body>
+    <div class ="topBar" style = "background-color: #FF5533">
+        <a href = {% url 'index' %}>
+            <h1 class = "logo">Consumption Junction</h1>
+        </a>
+        <input type="text" placeholder="Search">
+    </div>
+	
+	<div class = "about" style = "text-align: center">
+		<h1>About Us</h1>
+		<p>This is where we talk about us</p>
+	</div>
+	<div class="wrapper" style = "text-align: center">
+		<div>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
+		</div>
+		<div>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
+		</div>
+		<div>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
+		</div>
+		<div>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
+		</div>
+	</div>
+
+ </body>
+
+</main>
