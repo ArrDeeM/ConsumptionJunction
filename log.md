@@ -1,7 +1,7 @@
-## Sprint 2 
-# 9/30 Start of Sprint 3
+# Sprint 2 
+### 9/30 Start of Sprint 3
 
-# 9/30:
+### 9/30:
 -	Created update1 presentation
 -	Discussed sprint 3 goals
     -	Molly and Rachel work on basic HTML outline for pages
@@ -13,9 +13,9 @@
 -	Website for color pallete 
     -	https://mycolor.space/?hex=%23FF5533&sub=1 
 
-## Sprint 3 9/30-10/11
+# Sprint 3 9/30-10/11
 
-# 10/3
+### 10/3
 - 
 
-# 10/9
+### 10/9
