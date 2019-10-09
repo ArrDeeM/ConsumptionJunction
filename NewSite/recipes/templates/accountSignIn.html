@@ -5,18 +5,42 @@
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css" href="assets/css/theme.css">
 
     <title>Consumption Junction</title>
-
-    <div class ="topBar">
+	
+	<body style="background-color: white;">
+	
+	<div class ="topBar" style="background-color: #FF5533; padding: 10px">
             <a href = {% url 'index' %}>
-                <h1 class = "logo">Consumption Junction</h1>
+                <h1 class = "logo"style="text-align:center; font-size:350%; font-family: verdana;color: white">Consumption Junction</h1>
             </a>
-            <input type="text" placeholder="Search">
+			<br>
+            <input type="text" placeholder="Search" style="margin:10px auto; display:block; padding:5px;">
     </div>
+	
+	
+	<div class="links" style="background-color: #5EB6D7; text-align:center; padding:20px; font-size:150%">
+		<nav>
+			<a href = {% url 'About' %}>
+				<h2>About</h2>
+			</a>
+			<a href = {% url 'signIn' %}>
+				<h2>Sign In</h2>
+			</a>
+			<a href = {% url 'signUp' %}>
+				<h2>Create an account</h2>
+			</a>
+		</nav>
+	</div>
 
-    <div class = "account">
+    <div class = "account" style="background-color: #FBB6A3;">
         <form action="signIn">
+<<<<<<< HEAD
             <h2>Sign In</h2>
             <input type="text" placeholder="Username" required>
+=======
+			<h2>Sign into your account</h2>
+            <input type="text" placeholder="Email" required>
+            <br>
+>>>>>>> 24cbc3280238929d86e903731d7e0099062291fd
             <input type="text" placeholder="Password" minlength="8" required>
             <br>
             <button type="submit">sign in</button>
