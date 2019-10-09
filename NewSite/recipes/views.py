@@ -12,5 +12,5 @@ def signUp(request):
 def signIn(request):
     return render(request, 'accountSignIn.html')
 
-def about(request):
-    return render(request, 'about.html')
+def aboutUs(request):
+    return render(request, 'aboutUs.html')

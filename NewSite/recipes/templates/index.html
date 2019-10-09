@@ -7,14 +7,15 @@
     <title>Consumption Junction</title>
 
     <div class ="topBar">
-            <a href = {% url 'index' %}>
+            <a href={% url 'index' %}>
                 <h1 class = "logo">Consumption Junction</h1>
             </a>
             <input type="text" placeholder="Search">
+            <ul>
+                <li><a href={% url 'aboutUs' %}>about us</a></li>
+                <li><a href = {% url 'signUp' %}>sign up</a></li>
+            </ul>
     </div>
 
-    <a href = {% url 'signUp' %}>
-        <h2>sign up</h2>
-    </a>
 
 </main>
