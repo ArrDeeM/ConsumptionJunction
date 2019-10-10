@@ -1,40 +1,70 @@
+<!DOCTYPE html>
 {% extends "recipes/base.html" %}
 {% block content %}
-	<style>
-	.wrapper {
-	display: flex;
-	}
-	.wrapper > div {
-	font-size: 4vh;
-	color: white;
-	background: #5EB6D7;
-	margin: .1em;
-	padding: .3em;
-	border-radius: 3px;
-	flex: 1;
-	}
-	</style>
+<main>
+    <!--Links files to external css files-->
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css" href="assets/css/theme.css">
 
-		<div class = "about" style = "text-align: center">
-			<h1>About Us</h1>
-			<p>This is where we talk about us</p>
+    <title>Consumption Junction</title>
+
+<style>
+.createrBio {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.createrBio > div {
+  font-size: 4vh;
+  color: white;
+  background: #5EB6D7;
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+</style>
+
+<body>
+    <div class ="topBar" style = "background-color: #FF5533">
+        <a href = {% url 'index' %}>
+            <h1 class = "logo">Consumption Junction</h1>
+        </a>
+        <input type="text" placeholder="Search">
+    </div>
+	
+	<div class = "about" style = "text-align: center; padding: 100px; background-color: #5EB6D7; opacity: 0.5">
+		<h1>About Us</h1>
+		<p>Consumption Junction is meant to be a platform for posting and finding your favorite recipes. Whether you are looking
+		 to share old family recipes or looking for new ones, there is something for everyone.</p>
+	</div>
+	<div class="createrBio" style = "text-align: center">
+		<div>
+			<img src = "profile.png" width = "200px" height = "200px"/>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
 		</div>
-		<div class="wrapper" style = "text-align: center">
-			<div>
-				<p>Name</p>
-				<p style = "font-size: 18px">About Me</p>
-			</div>
-			<div>
-				<p>Name</p>
-				<p style = "font-size: 18px">About Me</p>
-			</div>
-			<div>
-				<p>Name</p>
-				<p style = "font-size: 18px">About Me</p>
-			</div>
-			<div>
-				<p>Name</p>
-				<p style = "font-size: 18px">About Me</p>
-			</div>
+		<div>
+			<img src = "profile.png" width = "200px" height = "200px"/>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
 		</div>
+		<div>
+			<img src = "profile.png" width = "200px" height = "200px"/>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
+		</div>
+		<div>
+			<img src = "profile.png" width = "200px" height = "200px"/>
+			<p>Name</p>
+			<p style = "font-size: 18px">About Me</p>
+		</div>
+	</div>
+	<footer style = "background-color: #FF5533; padding: 20px 60px">
+		<p>Copyright stuff.</p>
+	</footer>
+ </body>
+
+</main>
 {% endblock content %}
