@@ -1,5 +1,4 @@
 # Sprint 2 
-### 9/30 Start of Sprint 3
 
 ### 9/30:
 -	Created update1 presentation
@@ -19,3 +18,4 @@
 - 
 
 ### 10/9
+- Zach is going to organize the repo a little and get the account stuff implemented... hopefully

@@ -1,0 +1,16 @@
+{% extends "recipes/base.html" %}
+{% block content %}
+    <div class = "account" style="background-color: #FBB6A3;">
+        <form action="signIn">
+			<h2>Sign into your account</h2>
+            <input type="text" placeholder="Email" required>
+            <br>
+            <input type="text" placeholder="Password" minlength="8" required>
+            <br>
+            <button type="submit">sign in</button>
+        </form>
+    </div>
+    <a href={% url 'register' %}>
+        <h5>Create an account</h5>
+    </a>
+{% endblock content %}
