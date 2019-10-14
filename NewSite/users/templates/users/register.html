@@ -1,12 +1,10 @@
 {% extends "recipes/base.html" %}
 {% block content %}
     <div class="content-section">
-        <form class="content-section">
+        <form method="POST" class="content-section">
             {% csrf_token %}
-            <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Join now</legend>
-                {{ form }}
-            </fieldset>
+            <legend>Join now</legend>
+            {{ form.as_p }}
             <div class = "form-group">
                 <Button class="btn btn-online-info" type="submit">Sign up</Button>
             </div>

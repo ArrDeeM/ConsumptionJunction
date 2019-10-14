@@ -1,7 +1,9 @@
 {% extends "recipes/base.html" %}
 {% block content %}
     {% for recipe in recipes %}
-        <p>{{recipe.Recipe}} by {{recipe.User}}</p>
-        <p>Directions: {{recipe.Directions}}</p>
+        <div style="text-align:center">
+            <p>{{recipe.Recipe}} by {{recipe.User}}</p>
+            <p>Directions: {{recipe.Directions}}</p>
+        </div>
     {% endfor %}
 {% endblock content %}

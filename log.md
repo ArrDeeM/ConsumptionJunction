@@ -14,9 +14,6 @@
 
 # Sprint 3 9/30-10/11
 
-### 10/3
-- 
-
 ### 10/9
 - Zach is going to organize the repo a little and get the account stuff implemented... hopefully
 - Molly and Rachel working on HTML layout and get basic content up on the pages
