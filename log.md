@@ -11,6 +11,10 @@
 -	NEED TO ADD TA AND PROFESSOR TO GITHUB REPO
 -	Website for color pallete 
     -	https://mycolor.space/?hex=%23FF5533&sub=1 
+    -   #FF5533 red
+    -   #FBB6A3 dark pink
+    -   #FFE6D8 light pink
+    -   #5EB6D7 blue
 
 # Sprint 3 9/30-10/11
 
