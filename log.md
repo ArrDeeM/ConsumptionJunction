@@ -21,4 +21,4 @@
 # Sprint 4 10/14-10/25
 
 ### 10/14
--
+- Molly and Rachel work on creating CSS file in order to clean up HTML files
