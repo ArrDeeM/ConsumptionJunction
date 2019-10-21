@@ -25,7 +25,30 @@
 }
 </style>
 
-	<div class = "about" style = "text-align: center; padding: 100px; background-color: #5EB6D7; opacity: 0.5">
+<body>
+    <div class ="topBar" style="background-color: #FF5533; padding: 10px">
+        <a href = {% url 'index' %}>
+			<h1 class = "logo"style="text-align:center; font-size:350%; font-family: verdana;color: white">Consumption Junction</h1>
+        </a>
+        <br>
+        <input type="text" placeholder="Search" style="margin:10px auto; display:block; padding:5px;">
+    </div>
+	
+    <div class="links" style="background-color: #5EB6D7; text-align:center; padding:20px; font-size:150%">
+        <nav>
+            <a href = {% url 'aboutUs' %}>
+                <h2>About</h2>
+            </a>
+            <a href = {% url 'signIn' %}>
+                <h2>Sign In</h2>
+            </a>
+            <a href = {% url 'register' %}>
+                <h2>Create an account</h2>
+            </a>
+        </nav>
+    </div>
+	
+	<div class = "about" style = "text-align: center; padding: 100px">
 		<h1>About Us</h1>
 		<p>Consumption Junction is meant to be a platform for posting and finding your favorite recipes. Whether you are looking
 		 to share old family recipes or looking for new ones, there is something for everyone.</p>
