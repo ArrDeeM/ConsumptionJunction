@@ -1,10 +1,13 @@
 {% extends "recipes/base.html" %}
 {% block content %}
     {% for recipe in recipes %}
-    <li>
-      <!--Will need href to individual recipe urls-->
-      <h2>{{recipe.recipe_name}}</h2>
-      <img src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
-    </li>
+	<div style = "text-align:center;">
+		<li>
+			<!--Will need href to individual recipe urls-->
+			<h2>{{recipe.recipe_name}}</h2>
+			<img style= "text-align:center;" src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
+			<p>Calories: 650 cal <br> Serving Size: one burrito <br></p> 
+		</li>
+	</div>
     {% endfor %}
 {% endblock content %}
