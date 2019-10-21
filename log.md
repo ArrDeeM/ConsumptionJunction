@@ -27,3 +27,8 @@
 ### 10/14
 - Molly and Rachel work on creating CSS file in order to clean up HTML files
 - Zach got the accounts working 
+
+### 10/21
+- made update 2 presentation
+- prepared live demo
+- Molly and Rachel: start style sheet
