@@ -1,28 +1,20 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
-
-recipes = [
-    {
-        'User' : 'Zach',
-        'Recipe' : 'Bacon Pancakes',
-        'Ingrediants' : ['Bacon','flower'],
-        'Directions' : 'make em',
-        
-    },
-    {
-        'User' : 'Clayton',
-        'Recipe' : 'Blueberry Pancakes',
-        'Ingrediants' : ['Blueberries','flower',],
-        'Directions' : 'cook em',
-    }
-]
+from django.views import generic
+from recipes.models import Recipe
 
 def index(request):
-    context = {
-        'recipes' : recipes
-    }
-    return render(request, 'recipes/index.html', context)
+    recipe_list = Recipe.objects.all()
+    return render(request, 'recipes/index.html', {'recipes': recipe_list})
 
 def aboutUs(request):
     return render(request, 'recipes/aboutUs.html')
+
+class RecipeView(generic.ListView):
+    model = Recipe
+    context_object_name = 'recipe_list'
+    template_name = "recipes/index.html"
+
+    def get_queryset(self):
+        return Recipe.objects.all()

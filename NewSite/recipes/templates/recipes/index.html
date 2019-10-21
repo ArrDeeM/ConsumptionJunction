@@ -1,9 +1,10 @@
 {% extends "recipes/base.html" %}
 {% block content %}
     {% for recipe in recipes %}
-        <div style="text-align:center">
-            <p>{{recipe.Recipe}} by {{recipe.User}}</p>
-            <p>Directions: {{recipe.Directions}}</p>
-        </div>
+    <li>
+      <!--Will need href to individual recipe urls-->
+      <h2>{{recipe.recipe_name}}</h2>
+      <img src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
+    </li>
     {% endfor %}
 {% endblock content %}

@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css" href="assets/css/theme.css">
 
     <title>Consumption Junction</title>
-
+    {% load static %}
 <style>
 .createrBio {
   display: flex;
@@ -24,7 +24,7 @@
   flex: 1;
 }
 </style>
-	
+
 	<div class = "about" style = "text-align: center; padding: 100px; background-color: #5EB6D7; opacity: 0.5">
 		<h1>About Us</h1>
 		<p>Consumption Junction is meant to be a platform for posting and finding your favorite recipes. Whether you are looking
@@ -32,22 +32,22 @@
 	</div>
 	<div class="createrBio" style = "text-align: center">
 		<div>
-			<img src = "profile.png" width = "200px" height = "200px"/>
+			<img src = "{% static 'recipes/profile.png' %}" width = "200px" height = "200px"/>
 			<p>Name</p>
 			<p style = "font-size: 18px">About Me</p>
 		</div>
 		<div>
-			<img src = "profile.png" width = "200px" height = "200px"/>
+			<img src = "{% static 'recipes/profile.png' %}" width = "200px" height = "200px"/>
 			<p>Name</p>
 			<p style = "font-size: 18px">About Me</p>
 		</div>
 		<div>
-			<img src = "profile.png" width = "200px" height = "200px"/>
+			<img src = "{% static 'recipes/profile.png' %}" width = "200px" height = "200px"/>
 			<p>Name</p>
 			<p style = "font-size: 18px">About Me</p>
 		</div>
 		<div>
-			<img src = "profile.png" width = "200px" height = "200px"/>
+			<img src = "{% static 'recipes/profile.png' %}" width = "200px" height = "200px"/>
 			<p>Name</p>
 			<p style = "font-size: 18px">About Me</p>
 		</div>
