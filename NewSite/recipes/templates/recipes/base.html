@@ -6,61 +6,34 @@
 	<body style="background-color: white;">
 
 		<style>
-			a:link {
-				color: white;
-				background-color: transparent;
-				text-decoration: none;
-			}
-			a:visited {
-				color: blue;
-				background-color: transparent;
-				text-decoration: none;
-			}
-			a:hover {
-				color: red;
-				background-color: transparent;
-				text-decoration: underline;
-			}
-			a:active {
-				color: yellow;
-				background-color: transparent;
-				text-decoration: underline;
-			}
-
 			.links {
 				overflow: hidden;
-				background-color: #5EB6D7;
+				background-color: #FF5533;
 			}
 
 			.links a {
 				float: left;
 				color: white;
 				text-align: center;
-				padding: 14px 16px;
+				padding: 14px 18px;
 				text-decoration: none;
 				font-size: 17px;
 			}
 
 			.links a:hover {
 				background-color: #FBB6A3;
-				color: red;
+				color: #FF5533;
+				padding: auto;
 			}
-
 
 		</style>
 
-		<div class ="topBar"style="background-color: #FF5533; padding: 10px">
-			<a href = {% url 'index' %}>
-					<h1 class = "logo" style="text-align:center; font-size:350%; font-family: verdana;color: white">Consumption Junction</h1>
-			</a>
-			<br>
-			<input type="text" placeholder="Search" style="margin:10px auto; display:block; padding:5px;">
-		</div>
-
 		<div class="links">
+			<a href = {% url 'index' %}><h2 style="color:black;">Consumption <br>Junction</h2>
 			<a href = {% url 'aboutUs' %}><h2>About</h2></a>
 			<a href = {% url 'register' %}><h2>Register</h2></a>
-			<a href = {% url 'signIn' %}><h2>Sign Up</h2></a>	
+			<a href = {% url 'signIn' %}><h2>Sign Up</h2></a>
+			<input type="text" placeholder="Search" style="position:relative; margin:10px auto; display:block; padding:5px; align:center;">
 		</div>
 
         <body>
@@ -73,5 +46,9 @@
             {% endif %}
             {% block content %} {% endblock content %}
         </body>
+		
+		<footer style = "background-color: #FF5533; padding: 20px 60px">
+		<p>Copyright stuff.</p>
+		</footer>
     </body>
 </html>
