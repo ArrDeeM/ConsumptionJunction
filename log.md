@@ -27,3 +27,13 @@
 ### 10/14
 - Molly and Rachel work on creating CSS file in order to clean up HTML files
 - Zach got the accounts working 
+
+### 10/21 
+- Zach Linked 
+
+### 10/23
+- Zach got login/logout enabled. Did some changes based on if a user is logged in or not. created urls for account and makeRecipe
+    - Things to do
+        - create a form to create a recipe
+        - Pretty up the register, login, logout, account, and make recipe pages
+        - figure out how to display recipes that a user creates
