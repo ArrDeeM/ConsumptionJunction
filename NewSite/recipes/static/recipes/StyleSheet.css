@@ -6,7 +6,7 @@
   padding-left: 60px;
   text-align: center;
 }
-.createrBio > div {
+.createrBio div {
   font-size: 4vh;
   color: white;
   background: #5EB6D7;
@@ -24,9 +24,7 @@
 	border: 3px solid #5EB6D7;
 	padding: 40px;
 }
-p {
-	font-size: 18px;
-}
+
 
 .links {
 	overflow: hidden;
