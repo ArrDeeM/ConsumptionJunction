@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="\static\recipes\StyleSheet.css">
     <title>Consumption Junction</title>
     {% load static %}
@@ -16,8 +17,8 @@
 				<a href = {% url 'login' %}><h2>Log In</h2></a>
 				<a href = {% url 'register' %}><h2>Register</h2></a>
 			{% endif %}
+			<input type="text" placeholder="Search" style="position:relative; margin:10px auto; display:block; padding:5px; text-align:center;">
 		</div>
-		<input type="text" placeholder="Search" style="position:relative; margin:10px auto; display:block; padding:5px; text-align:center;">
         <body>
             {% if messages %}
                 {% for messages in messages %}
