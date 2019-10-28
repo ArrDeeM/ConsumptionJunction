@@ -42,3 +42,7 @@
         - figure out how to display recipes that a user creates
 
 
+# Sprint 5 10/28-11/8
+
+### 10/28
+- Molly and Rachel moving styling to CSS file
