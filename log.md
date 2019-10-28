@@ -32,3 +32,8 @@
 - made update 2 presentation
 - prepared live demo
 - Molly and Rachel: start style sheet
+
+# Sprint 5 10/28-11/8
+
+### 10/28
+- Molly and Rachel moving styling to CSS file
