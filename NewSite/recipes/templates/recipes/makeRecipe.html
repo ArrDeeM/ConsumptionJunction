@@ -1,4 +1,14 @@
 {% extends "recipes/base.html" %}
 {% block content %}
-    <h2>This is where we put a form to create a recipe</h2>
+    <h1>{{ question.question_text }}</h1>
+
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+    <form  method="POST">
+    {% csrf_token %}
+    {% for choice in question.choice_set.all %}
+        
+    {% endfor %}
+    <input type="submit">
+    </form>
 {% endblock content %}

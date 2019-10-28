@@ -29,7 +29,10 @@
 - Zach got the accounts working 
 
 ### 10/21 
-- Zach Linked 
+- Zach Linked some files
+- made update 2 presentation
+- prepared live demo
+- Molly and Rachel: start style sheet
 
 ### 10/23
 - Zach got login/logout enabled. Did some changes based on if a user is logged in or not. created urls for account and makeRecipe
@@ -37,3 +40,5 @@
         - create a form to create a recipe
         - Pretty up the register, login, logout, account, and make recipe pages
         - figure out how to display recipes that a user creates
+
+

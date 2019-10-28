@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 class Recipe(models.Model):
 
@@ -10,7 +11,7 @@ class Recipe(models.Model):
 
     #Will need views template for viewing all possible recipes when clicked
     def get_absolute_url(self):
-        return reverse('model-detailed-view', args=[str(self.id)])
+        return reverse('model-detailed-view', args=[str(self.recipe_name)])
 
     def __str__(self):
         return self.recipe_name

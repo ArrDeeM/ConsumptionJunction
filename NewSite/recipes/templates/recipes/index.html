@@ -1,10 +1,34 @@
 {% extends "recipes/base.html" %}
 {% block content %}
     {% for recipe in recipes %}
-    <li>
-      <!--Will need href to individual recipe urls-->
-      <h2>{{recipe.recipe_name}}</h2>
-      <img src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
-    </li>
+	
+	<style>
+		.intro {
+				overflow: hidden;
+				background-color: #5EB6D7;
+				text-align: center;
+				display:block; 
+				text-align:center;
+				margin: 10px auto;
+				width: 60%;
+				border: 3px solid #5EB6D7;
+				padding: 40px;
+		}
+	</style>
+	<div>
+		<h3 class="intro">Welcome to Consumption Junction! We are a platform that dedicated to helping you <br>
+			connect with food lovers around the world! Our website will allow you to upload your own recipes for others to
+			try as well as seeing other recipes posted by other food lovers. <br><br> Here are some categories to get you started:
+		</h3>
+	</div>
+	
+	<div style = "text-align:center;">
+		<li>
+			<!--Will need href to individual recipe urls-->
+			<h2>{{recipe.recipe_name}}</h2>
+			<img style= "text-align:center;" src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
+			<p>{{recipe.calorie_count}}<br></p> 
+		</li>
+	</div>
     {% endfor %}
 {% endblock content %}
