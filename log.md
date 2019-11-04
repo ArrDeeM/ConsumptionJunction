@@ -49,4 +49,6 @@
 
 ### 11/4
 - Work on presentation for update 3
-- 
+- Rachel and Molly worked on refining the CSS
+- Zach worked on login and sign up
+- Clayton worked on recipe creation and storage
