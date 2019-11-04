@@ -1,6 +1,10 @@
 {% extends "recipes/base.html" %}
 {% block content %}
-    <div class = "account" style="background-color: #FBB6A3;">
+	<link rel="stylesheet">
+	<div class="signin">
+		<h3>Sign Into Your Account</h3>
+	</div>
+    <div class = "account"">
         <form method="POST">
             {% csrf_token %}
             {{ form.as_p }}
@@ -9,5 +13,5 @@
     </div>
     <small class="text-muted">
             <a href={% url 'register' %}>Need an account? </a>
-        </small>
+    </small>
 {% endblock content %}
