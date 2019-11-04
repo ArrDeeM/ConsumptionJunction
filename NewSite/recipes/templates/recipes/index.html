@@ -1,7 +1,5 @@
 {% extends "recipes/base.html" %}
 {% block content %}
-    {% for recipe in recipes %}
-	
 	<div>
 		<h4 class="intro"><b>Welcome to Consumption Junction!</b><br><br>
 		We are a platform that dedicated to 
@@ -11,6 +9,7 @@
 		Here are some categories to get you started:
 		</h4>
 	</div>
+    {% for recipe in recipes %}
 	
 	<div style = "text-align:center;">
 		<li>
