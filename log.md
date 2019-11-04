@@ -46,3 +46,7 @@
 
 ### 10/28
 - Molly and Rachel moving styling to CSS file and looking at Bootstrap to possibly use
+
+### 11/4
+- Work on presentation for update 3
+- 
