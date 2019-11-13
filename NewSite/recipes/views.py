@@ -12,16 +12,16 @@ def index(request):
 def aboutUs(request):
     return render(request, 'recipes/aboutUs.html')
 
-class RecipeView(generic.ListView):
-    model = Recipe
-    context_object_name = 'recipe_list'
-    template_name = "recipes/index.html"
+def recipeView(request, recipe_name):
+    try:
+        recipe = Recipe.objects.get(recipe_name=recipe_name)
+    except Recipe.DoesNotExist:
+        pass
+    return render(request, 'recipes/recipeView.html', {'recipe':recipe})
 
-    def get_queryset(self):
-        return Recipe.objects.all()
 
 def makeRecipe(request):
     #if(not request.user.is_authenticated()):
     #    messages.error(request, 'You must be logged in to make a recipe.')
-    #    return redirect('login') 
+    #    return redirect('login')
     return render(request, 'recipes/makeRecipe.html')

@@ -5,5 +5,6 @@ from users import views as users_views
 urlpatterns = [
     path('', views.index, name='index'),
     path('aboutUs/', views.aboutUs, name ='aboutUs'),
+    path('<recipe_name>/', views.recipeView, name ='recipeView'),
     path('account/makeRecipe/', views.makeRecipe, name = 'makeRecipe'),
 ]

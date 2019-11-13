@@ -2,21 +2,21 @@
 {% block content %}
 	<div>
 		<h4 class="intro"><b>Welcome to Consumption Junction!</b><br><br>
-		We are a platform that dedicated to 
-		helping you connect with food lovers around the world! Our website will allow you to 
-		upload your own recipes for others to try as well as seeing other recipes posted by other food lovers. 
-		<br><br> 
+		We are a platform that dedicated to
+		helping you connect with food lovers around the world! Our website will allow you to
+		upload your own recipes for others to try as well as seeing other recipes posted by other food lovers.
+		<br><br>
 		Here are some categories to get you started:
 		</h4>
 	</div>
     {% for recipe in recipes %}
-	
+
 	<div style = "text-align:center;">
 		<li>
 			<!--Will need href to individual recipe urls-->
-			<h2>{{recipe.recipe_name}}</h2>
+			<a href = "{{recipe.recipe_name}}"><h2>{{recipe.recipe_name}}</h2></a>
 			<img style= "text-align:center;" src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
-			<p>{{recipe.calorie_count}}<br></p> 
+			<p>{{recipe.calorie_count}}<br></p>
 		</li>
 	</div>
     {% endfor %}
