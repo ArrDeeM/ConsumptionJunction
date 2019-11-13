@@ -7,7 +7,7 @@
 	<body style="background-color: white;">
 
 		<div class="links">
-			<a href = {% url 'index' %}><h2 style="color:black;">Consumption <br>Junction</h2>
+			<a href = {% url 'index' %}><img src = "{% static 'recipes/conjunc2.png' %}" width = "280px" height = "110px"/>
 			<a href = {% url 'aboutUs' %}><h2>About</h2></a>
 	
 			{% if request.user.is_authenticated %}
