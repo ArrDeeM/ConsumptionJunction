@@ -94,3 +94,17 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.jumbotron {
+  text-align: center;
+  background-color: #FBB6A3;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  @include border-radius(0);
+}
