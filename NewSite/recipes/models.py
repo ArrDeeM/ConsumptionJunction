@@ -14,4 +14,4 @@ class Recipe(models.Model):
         return reverse('model-detailed-view', args=[str(self.recipe_name)])
 
     def __str__(self):
-        return self.recipe_name
+        return self.recipe_name.replace(' ','_')
