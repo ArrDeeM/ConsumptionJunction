@@ -14,7 +14,7 @@
 	<div style = "text-align:center;">
 		<li>
 			<!--Will need href to individual recipe urls-->
-			<a href = "{{recipe.recipe_name}}"><h2>{{recipe.recipe_name}}</h2></a>
+			<a href = "{% url 'recipeView' recipe_name=recipe.recipe_name %}"><h2>{{recipe.recipe_name}}</h2></a>
 			<img style= "text-align:center;" src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
 			<p>{{recipe.calorie_count}}<br></p>
 		</li>
