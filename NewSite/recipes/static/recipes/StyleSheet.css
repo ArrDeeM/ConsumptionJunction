@@ -8,8 +8,8 @@
 }
 .createrBio div {
   font-size: 4vh;
-  color: white;
-  background: #5EB6D7;
+  color: black;
+  background: #FFE6D8;
   margin: .1em;
   padding: .3em;
   border-radius: 3px;
@@ -36,16 +36,7 @@
 	color: #FF5533;
 	padding: auto;
 }
-.intro {
-	overflow: hidden;
-	background-color: #5EB6D7;
-	text-align: center;
-	display:block; 
-	margin: 10px auto;
-	width: 60%;
-	border: 3px solid #5EB6D7;
-	padding: 40px;
-}
+
 .signin {
 	padding: 15px; 
 	width: 60%; 
@@ -84,9 +75,9 @@
   cursor: pointer;
 }
 
-.jumbotron-about {
+.our-jumbotron {
   text-align: center;
-  background-color: #FBB6A3;
+  background-color: #5EB6D7;
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   border-radius: .3rem;
