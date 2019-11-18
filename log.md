@@ -61,3 +61,5 @@
 
 ### 11/18
 - Molly and Rachel finalizing pages
+    - add "about me" content to about page
+    - re-work recipe list layout if time
