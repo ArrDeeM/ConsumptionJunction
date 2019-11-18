@@ -58,3 +58,6 @@
 - Rachel working on logo
 - Zach and Clayton working on recipe storage/searching
 - Molly working on adding styling from bootstrap
+
+### 11/18
+- Molly and Rachel finalizing pages
