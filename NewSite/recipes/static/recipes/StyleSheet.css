@@ -20,6 +20,9 @@
 .links {
 	overflow: hidden;
 	background-color: #FF5533;
+	position: relative;
+	align-items: center;
+	display: flex;
 }
 
 .links a {
