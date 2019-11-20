@@ -63,3 +63,7 @@
 - Molly and Rachel finalizing pages
     - add "about me" content to about page
     - re-work recipe list layout if time
+
+### 11/20
+- Zach and Clayton look into adding recipes
+- Molly and Rachel work on not-user added content
