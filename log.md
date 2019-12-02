@@ -67,3 +67,7 @@
 ### 11/20
 - Zach and Clayton look into adding recipes
 - Molly and Rachel work on not-user added content
+
+## 12/2
+- Molly and Rachel work on final presentation powerpoint
+- Zach and Clayton finish up loose ends
