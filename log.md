@@ -41,7 +41,6 @@
         - Pretty up the register, login, logout, account, and make recipe pages
         - figure out how to display recipes that a user creates
 
-
 # Sprint 5 10/28-11/8
 
 ### 10/28
@@ -49,4 +48,26 @@
 
 ### 11/4
 - Work on presentation for update 3
-- 
+- Rachel and Molly worked on refining the CSS
+- Zach worked on login and sign up
+- Clayton worked on recipe creation and storage
+
+# Sprint 6 11/11-11/22
+
+### 11/13
+- Rachel working on logo
+- Zach and Clayton working on recipe storage/searching
+- Molly working on adding styling from bootstrap
+
+### 11/18
+- Molly and Rachel finalizing pages
+    - add "about me" content to about page
+    - re-work recipe list layout if time
+
+### 11/20
+- Zach and Clayton look into adding recipes
+- Molly and Rachel work on not-user added content
+
+## 12/2
+- Molly and Rachel work on final presentation powerpoint
+- Zach and Clayton finish up loose ends

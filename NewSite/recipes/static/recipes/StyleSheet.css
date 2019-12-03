@@ -8,27 +8,21 @@
 }
 .createrBio div {
   font-size: 4vh;
-  color: white;
-  background: #5EB6D7;
+  color: black;
+  background: #FFE6D8;
   margin: .1em;
   padding: .3em;
   border-radius: 3px;
   flex: 1;
+  border: 3px dotted #FF5533;
 }
-.about {
-	text-align: center; 
-	display:block; 
-	text-align:center;
-	margin: 10px auto;
-	width: 60%;
-	border: 3px solid #5EB6D7;
-	padding: 40px;
-}
-
 
 .links {
 	overflow: hidden;
 	background-color: #FF5533;
+	position: relative;
+	align-items: center;
+	display: flex;
 }
 
 .links a {
@@ -45,16 +39,55 @@
 	color: #FF5533;
 	padding: auto;
 }
-.intro {
-	overflow: hidden;
-	background-color: #5EB6D7;
-	text-align: center;
+
+.signin {
+	padding: 15px; 
+	width: 60%; 
+	background-color: #FBB6A3;
 	display:block; 
-	text-align:center;
 	margin: 10px auto;
-	width: 60%;
-	border: 3px solid #5EB6D7;
-	padding: 40px;
+	text-align: center;
+}
+.account {
+	background-color: #5EB6D7; 
+	padding:15px; 
+	text-align:center;
+	display:block; 
+	margin: 10px auto;
+	width: 60%; 
+}
+.join {
+	background-color: #5EB6D7; 
+	padding:15px; 
+	text-align:left;
+	display:block; 
+	margin: 10px auto;
+	width: 60%; 
 }
 
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
+.our-jumbotron {
+  text-align: center;
+  background-color: #5EB6D7;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  @include border-radius(0);
+}

@@ -7,7 +7,7 @@
 	<body style="background-color: white;">
 
 		<div class="links">
-			<a href = {% url 'index' %}><h2 style="color:black;">Consumption <br>Junction</h2>
+			<a href = {% url 'index' %}><img src = "{% static 'recipes/conjunc2.png' %}" width = "280px" height = "110px"></a>
 			<a href = {% url 'aboutUs' %}><h2>About</h2></a>
 	
 			{% if request.user.is_authenticated %}
@@ -31,7 +31,7 @@
         </body>
 		
 		<footer style = "background-color: #FF5533; padding: 20px 60px">
-		<p>Copyright stuff.</p>
+		<p>&copy; 2019 by ConsumptionJunction Inc. </p>
 		</footer>
     </body>
 </html>

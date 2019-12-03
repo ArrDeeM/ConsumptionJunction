@@ -1,0 +1,9 @@
+{% extends "recipes/base.html" %}
+{% block content %}
+<h1>{{recipe.recipe_name}}</h1>
+<img style= "text-align:left;" src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
+<h2>Ingredients</h2>
+<p>{{recipe.ingredients}}</p>
+<h2>Steps</h2>
+<p>{{recipe.steps}}</p>
+{% endblock content %}

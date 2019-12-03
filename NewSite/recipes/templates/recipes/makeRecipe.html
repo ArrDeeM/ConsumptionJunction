@@ -1,14 +1,7 @@
 {% extends "recipes/base.html" %}
 {% block content %}
-    <h1>{{ question.question_text }}</h1>
-
-    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
-
-    <form  method="POST">
-    {% csrf_token %}
-    {% for choice in question.choice_set.all %}
-        
-    {% endfor %}
-    <input type="submit">
-    </form>
+<form enctype='multipart/form-data' method='POST'> {% csrf_token %}
+{{form.as_p}}
+<input type='submit' value='Save' />
+</form>
 {% endblock content %}
