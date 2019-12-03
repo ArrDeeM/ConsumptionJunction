@@ -12,8 +12,8 @@
     {% for recipe in recipes %}
 	<div style = "text-align:center;">
 		<!--Will need href to individual recipe urls-->
-		<a href = "{% url 'recipeView' recipe_name=recipe.recipe_name %}"><h2>{{recipe.recipe_name}}</h2></a>
-		<img style= "text-align:center;" src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>			
+		<a href = "{% url 'recipeView' recipe_url=recipe.recipe_url %}"><h2>{{recipe.recipe_name}}</h2></a>
+		<img style= "text-align:center;" src = "{{recipe.recipe_image.url}}" width = "200px" height = "200px"/>
 		<p>{{recipe.calorie_count}}<br></p>
 	</div>
     {% endfor %}
