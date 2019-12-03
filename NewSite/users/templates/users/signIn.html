@@ -1,5 +1,14 @@
 {% extends "recipes/base.html" %}
 {% block content %}
+    <style>
+        .account {
+            margin-left: 25%;
+            margin-right: 25%;
+            text-align-last: center;
+        }
+    
+    </style>
+
     <div class = "account" style="background-color: #FBB6A3;">
         <form method="POST">
             {% csrf_token %}
